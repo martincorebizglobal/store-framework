@@ -52,7 +52,8 @@
     "props":{
       "initialSelection":"empty",
       "showVariationsLabels": true,
-      "showVariationsErrorMessage":true
+      "showVariationsErrorMessage":true,
+      "showValueNameForImageVariation":true
     }
   },
   "stack-layout#brand": {
