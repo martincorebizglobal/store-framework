@@ -19,7 +19,7 @@
   },
   "flex-layout.col#left": {
     "children": [
-      "product-images"
+      "stack-layout#brand"
     ]
   },
   "flex-layout.col#right": {
@@ -60,9 +60,9 @@
       "product-images",
       "product-brand"
     ],
-    "props":{
-      "displayMode": "logo",
-      "height": 30
-    }
+      "props":{
+        "displayMode": "logo",
+        "height": 30
+      }
   }
 }
