@@ -3,7 +3,8 @@
   "store.product": {
      "children": [
        "breadcrumb",
-       "flex-layout.row#main"
+       "flex-layout.row#main",
+       "shelf.relatedProducts"
      ]
    },
  
@@ -46,5 +47,22 @@
       "sku-selector",
       "product-quantity"
     ]
+  },
+  "sku-selector":{
+    "props":{
+      "initialSelection":"empty",
+    "showVariationsLabels": true,
+    "showVariationsErrorMessage":true
+    }
+  },
+  "stack-layout#brand": {
+    "children": [
+      "product-images",
+      "product-brand"
+    ],
+    "props":{
+      "displayMode": "logo",
+      "height": 30
+    }
   }
 }
