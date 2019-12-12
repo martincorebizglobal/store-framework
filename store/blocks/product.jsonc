@@ -24,7 +24,7 @@
   "children": [
     "product-name",
     "product-price",
-    "buy-button"
+    "buy-button" 
   ],
     "props": { 
       "verticalAlign":"middle",
