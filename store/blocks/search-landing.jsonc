@@ -1,24 +1,26 @@
 {
     "store.custom#landing": { 
       "blocks": [
-        "image#landingbanner", 
+        "image", 
         "search-result-layout.customQuery"
       ]
     },
-    "image#landingbanner":{
+    "image":{
         "props":{
-            "minWidth":100,
+            "minWidth": 100,
             "src":"https://d500.epimg.net/cincodias/imagenes/2019/04/16/lifestyle/1555446494_680563_1555446704_noticia_normal.jpg"
         }
     },
     "search-result-layout.customQuery":{
-        "props":{
-            "orderByField":"OrderByTopSaleDESC",
-            "hideUnavailableItems":true,
-            "maxItemsPerPage":8,
-            "queryField":"Blue Top Retro Camera",
-            "mapField":"ft"
-        }
-
+        "props": {
+            "querySchema": {
+              "orderByField": "OrderByReleaseDateDESC",
+              "hideUnavailableItems": true,
+              "maxItemsPerPage": 8,
+              "queryField":"Blue Top Retro Camera",
+                "mapField":"ft"
+            }
+          },
+          "blocks": ["search-result-layout.desktop"]
     }
   }
