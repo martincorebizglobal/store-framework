@@ -97,7 +97,7 @@
     "header-row#main-mobile": {
         "children": [
           "drawer",
-          "logo",
+          "logo", 
           "header-spacer",
           "minicart",
           "login"
