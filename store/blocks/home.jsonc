@@ -3,9 +3,9 @@
     "blocks": [
       "flex-layout.col",
       "info-card#button-right",
-      "info-card#button-left",
+      "info-card#button-left", 
       "flex-layout.row",
-      "shelf",
+      "shelf", 
       "slider-layout#home",
       "responsive-layout.mobile#mobile",
       "responsive-layout.desktop#desktop"
