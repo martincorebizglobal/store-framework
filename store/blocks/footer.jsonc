@@ -7,7 +7,7 @@
           "flex-layout.row#footer-1-desktop"
         ]
       },
-      
+
     "flex-layout.row#footer-1-desktop": {
         "children": [
           "flex-layout.col#footer-left-desktop",
@@ -26,7 +26,8 @@
       },
       "accepted-payment-methods":{
         "props": {
-            "paymentMethods": ["mastercard", "visa", "diners club"]
+            "paymentMethods": ["mastercard", "visa", "diners club"],
+            "showInColor":true
           }
       },
       "flex-layout.col#footer-right-desktop":{
@@ -38,7 +39,8 @@
             { "url": "https://facebook.com/foo", "name": "Facebook" },            
             { "url": "https://Instagram.com/foo", "name": "Instagram" },
             { "url": "https://twitter.com/foo", "name": "Twitter" }
-          ]
+          ],
+          "showInColor":true
         }
       }
 }
